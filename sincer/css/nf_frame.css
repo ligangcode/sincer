@@ -1,0 +1,1022 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+}
+body {
+  background-repeat:repeat-x;
+  background-position: 0 0;
+  background-color: #d3dbdb;
+}
+.nf_width_control {
+  width: 100%;
+  overflow: hidden;
+  min-width: 1000px;
+  zoom: 1;
+  position: relative;
+}
+.nf_header {
+  width: 1000px;
+  height: 108px; background:url(http://www.sicer.com/images/pic_01_03.jpg) repeat-x;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1010;
+}
+.nf_header .logo {
+  position: absolute;
+  width: 130px;
+  height: 75px;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+}
+.nf_header .user_info {
+  position: absolute;
+  right: 0;
+  top: 8px;
+  line-height: 18px;
+  color: #808080;
+  z-index:10;
+}
+.nf_header .user_info a {
+  color: #808080;
+}
+.nf_header .user_info a:hover {
+  text-decoration: underline;
+}
+.nf_header .hd_search {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  width: 246px;
+  height: 32px;
+}
+.nf_header .hd_search .ilb {
+  width: 206px;
+  height: 26px;
+  background-image: url(http://www.sicer.com/images/nf_header_search.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 3px;
+}
+.nf_header .hd_search .ilb input {
+  width: 200px;
+  line-height: 24px;
+  height: 26px;
+  border: 0 none;
+  background-color: transparent;
+  margin: 0;
+  padding: 0 3px;
+  outline: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.nf_header .hd_search .ilb label {
+  width: 200px;
+  left: 3px;
+  top: 0;
+  height: 26px;
+  line-height: 26px;
+  color: #ccc;
+}
+.nf_header .hd_search .btn_submit {
+  background-image: url(http://www.sicer.com/images/nf_header_search.png);
+  background-repeat: no-repeat;
+  background-position: right 0;
+  width: 36px;
+  height: 0;
+  padding-top: 32px;
+  overflow: hidden;
+  display: block;
+  right: 0;
+  position: absolute;
+  outline: none;
+}
+.nf_header .hd_search .btn_submit:hover {
+  background-position: right -40px;
+}
+/* New Frame Top Main Navigation  */
+.nf_tmn {
+  width: 387px;
+  height: 50px;
+  position: absolute;
+  left: 150px;
+  top: 25px;
+}
+/* tmn lv1 */
+.nf_tmn .ul_lv1 {
+  width: 630px;
+  height: 50px;
+}
+.nf_tmn .li_lv1 {
+  height: 50px;
+  float: left;
+  display: inline;
+  position: relative;
+  /*width: 110px;*/ padding:0px 5px;
+}
+.nf_tmn .a_lv1 {
+  height: 40px;
+  /*width: 95px;*/
+  padding-bottom: 10px;
+  line-height: 40px;
+  overflow: hidden;
+  font-family: "Microsoft Yahei";
+  font-size: 14px;
+  font-weight: 700;
+  color: #303030;
+  float: left;
+  display: inline;
+  background-image: url(http://www.sicer.com/images/nf_tmn_btns_lv1.png) ;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  text-align: center;
+}
+.nf_tmn .ul_lv1 .active .a_lv1,
+.nf_tmn .ul_lv1 .r_trail .a_lv1 {
+  color: #606060;
+  background-position: right -50px;
+}
+.nf_tmn .a_lv1_1 {
+  /*width: 110px;*/ padding:0px 10px 10px 10px;
+}
+/* tmn lv2 */
+.nf_tmn .ul_lv1 .active .ul_lv2,
+.nf_tmn .ul_lv1 .r_trail .ul_lv2 {
+  display: block;
+}
+.nf_tmn .ul_lv2 {
+  position: absolute;
+  width: 1000px;
+  top: 50px;
+  height: 32px;
+  display: none;
+}
+.nf_tmn .li_lv1_1 .ul_lv2 {
+  left: -150px;
+  padding-left: 3px;
+  width: 997px;/* 853 */
+}
+.nf_tmn .li_lv1_2 .ul_lv2 {
+  left: -235px;
+  padding-left: 163px;
+  width: 837px;/* 564 */
+}
+.nf_tmn .li_lv1_3 .ul_lv2 {
+  left: -330px;
+  padding-left: 163px;
+  width: 837px;/* 528 */
+}
+.nf_tmn .li_lv1_4 .ul_lv2 {
+  left: -425px;
+  padding-left: 163px;
+  width: 837px;/* 470 */
+}
+.nf_tmn .li_lv2 {
+  float: left;
+  display: inline;
+  height: 32px;
+  margin-left: -3px;
+}
+.nf_tmn .a_lv2 {
+  float: left;
+  display: inline;
+  height: 32px;
+  overflow: hidden;
+  line-height: 32px;
+  font-size: 14px;
+  font-family: "Microsoft Yahei";
+  color: #fff;
+  background-image:url(http://www.sicer.com/images/nf_tmn_btn_sprite.png);
+  background-repeat:no-repeat;
+  background-position:0 0;
+  padding-left:3px;
+}
+.nf_tmn .a_lv2 span{
+  background-image:url(http://www.sicer.com/images/nf_tmn_btn_sprite.png);
+  background-repeat:no-repeat;
+  background-position:right -40px;
+  padding:0px 15px 0 10px; margin-top:1px;
+  float: left;
+  display: inline;
+  height: 30px;
+  overflow: hidden;
+  line-height: 30px;
+  font-size: 14px;
+  font-family: "Microsoft Yahei";
+  color: #fff;
+  cursor:pointer;
+}
+.nf_tmn .ul_lv2 .active .a_lv2,
+.nf_tmn .ul_lv2 .r_trail .a_lv2,
+.nf_tmn .a_lv2:hover {
+  z-index: 100;
+  background-position:0 -80px;
+}
+.nf_tmn .ul_lv2 .active .a_lv2 span,
+.nf_tmn .ul_lv2 .r_trail .a_lv2 span,
+.nf_tmn .a_lv2:hover span{
+  background-position:right -120px;
+}
+/* tmn lv3 */
+/*.nf_tmn .ul_lv2 .active .wrap_lv3,
+.nf_tmn .ul_lv2 .r_trail .wrap_lv3*/
+.nf_tmn .ul_lv2 .hover .wrap_lv3 {
+  display: block;
+}
+.nf_tmn .wrap_lv3 {
+  width: 1000px;
+  margin-left: -500px;
+  min-width: 1000px;
+  min-height: 70px;   /* 9-25*/
+  position: absolute;
+  left: 50%;
+  top: 32px;
+  background-color: #fff;
+  display: none;
+ /* padding: 20px 0;      9-25*/
+  box-shadow: 5px 0 5px #999;
+  border-bottom: solid 1px #eee;
+  zoom: 1;
+}
+.nf_tmn .wrap_lv3 .pop_lv3 {
+  width: 1000px;
+ /* min-height: 100px;     9-25*/
+  margin: 0 auto;
+  zoom: 1;
+}
+/* nf_tmn_lv3_pop_cp */
+.nf_tmn_lv3_pop_cp {
+  overflow: auto;
+  zoom: 1;
+}
+.nf_tmn_lv3_pop_cp .product_list {
+  float: left;
+  display: inline;
+  /*padding: 0 28px;    9-25*/
+  width: 709px;
+  overflow: hidden;
+  border-right: solid 1px #e8e8ea;
+}
+.nf_tmn_lv3_pop_cp .product_list ul {
+  width: 730px;
+  overflow: auto;
+  zoom: 1;
+  padding: 0;
+  margin: 0;
+}
+.nf_tmn_lv3_pop_cp .product_list ul li {
+  width: 125px;
+  margin-right: 21px;
+  float: left;
+  display: inline;
+  overflow: hidden;
+  height: 33px; line-height:33px;/*  9-25  */
+}
+.nf_tmn_lv3_pop_cp .product_list ul li .thumb {
+  width: 125px;
+  height: 125px;
+}
+.nf_tmn_lv3_pop_cp .product_list ul li .tit {
+ /* text-align: center;
+  height: 18px;        9-25*/
+  overflow: hidden;
+  /*padding-top: 3px;*/
+  padding:5px 0px;
+}
+.nf_tmn_lv3_pop_cp .product_list ul li .tit a {
+  color: #303030;
+}
+.nf_tmn_lv3_pop_cp .product_list ul li .tit a:hover {
+  text-decoration: underline;
+}
+.nf_tmn_lv3_pop_cp .sidebar {
+  width: 204px;
+  float: right;
+  display: inline;
+  padding-left: 30px;
+  zoom: 1;
+}
+.nf_tmn_lv3_pop_cp .sidebar h2 {
+  font-family: "Microsoft YaHei";
+  color: #303030;
+  font-weight: 700;
+}
+/* nf_tmn_lv3_pop_bp */
+.nf_tmn_lv3_pop_bp {
+  background-image: url(http://www.sicer.com/images/nf_tmn_lv3_pop_bp_bg.png);
+  background-repeat: repeat-y;
+  background-position: 0 0;
+  overflow: auto;
+  zoom: 1;
+}
+.nf_tmn_lv3_pop_bp h2 {
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  color: #d81148;
+  font-weight: 700;
+}
+.nf_tmn_lv3_pop_bp h3 {
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  color: #303030;
+  font-weight: 700;
+}
+.nf_tmn_lv3_pop_bp .col1,
+.nf_tmn_lv3_pop_bp .col2,
+.nf_tmn_lv3_pop_bp .col3,
+.nf_tmn_lv3_pop_bp .col4,
+.nf_tmn_lv3_pop_bp .col5 {
+  float: left;
+  display: inline;
+}
+.nf_tmn_lv3_pop_bp .col1 {
+  width: 172px;
+}
+.nf_tmn_lv3_pop_bp .col2 {
+  width: 195px;
+}
+.nf_tmn_lv3_pop_bp .col3 {
+  width: 182px;
+}
+.nf_tmn_lv3_pop_bp .col4 {
+  width: 275px;
+}
+.nf_tmn_lv3_pop_bp .col5 {
+  width: 176px;
+}
+.nf_tmn_lv3_pop_bp .col5 strong {
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  color: #303030;
+  font-weight: 700;
+}
+/* nf_tmn_lv3_pop_so */
+.nf_tmn_lv3_pop_so {
+  background-image: url(http://www.sicer.com/images/nf_tmn_lv3_pop_so_bg.png);
+  background-repeat: repeat-y;
+  background-position: 0 0;
+  overflow: auto;
+  zoom: 1;
+}
+.nf_tmn_lv3_pop_so h2 {
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  color: #d81148;
+  font-weight: 700;
+}
+.nf_tmn_lv3_pop_so h3 {
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  color: #303030;
+  font-weight: 700;
+}
+.nf_tmn_lv3_pop_so .col1,
+.nf_tmn_lv3_pop_so .col2,
+.nf_tmn_lv3_pop_so .col3,
+.nf_tmn_lv3_pop_so .col4,
+.nf_tmn_lv3_pop_so .col5 {
+  float: left;
+  display: inline;
+}
+.nf_tmn_lv3_pop_so .col1 {
+  width: 172px;
+}
+.nf_tmn_lv3_pop_so .col2 {
+  width: 169px;
+}
+.nf_tmn_lv3_pop_so .col3 {
+  width: 257px;
+}
+.nf_tmn_lv3_pop_so .col4 {
+  width: 198px;
+}
+.nf_tmn_lv3_pop_so .col5 {
+  width: 204px;
+}
+.nf_tmn_lv3_pop_so .col3 .c2x {
+  overflow: auto;
+  width: 200px;
+}
+.nf_tmn_lv3_pop_so .col3 .c2x li {
+  width: 100px;
+  float: left;
+  display: inline;
+}
+.nf_tmn_lv3_pop_so .col5 strong {
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  color: #303030;
+  font-weight: 700;
+}
+/* nf_tmn_lv3_pop_he */
+.nf_tmn_lv3_pop_he {
+  background-image: url(http://www.sicer.com/images/nf_tmn_lv3_pop_he_bg.png);
+  background-repeat: repeat-y;
+  background-position: 0 0;
+  overflow: auto;
+  zoom: 1;
+}
+.nf_tmn_lv3_pop_he h2 {
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  color: #d81148;
+  font-weight: 700;
+}
+.nf_tmn_lv3_pop_he h3 {
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  color: #303030;
+  font-weight: 700;
+}
+.nf_tmn_lv3_pop_he .col1,
+.nf_tmn_lv3_pop_he .col2,
+.nf_tmn_lv3_pop_he .col3,
+.nf_tmn_lv3_pop_he .col4 {
+  float: left;
+  display: inline;
+}
+.nf_tmn_lv3_pop_he .col1 {
+  width: 168px;
+}
+.nf_tmn_lv3_pop_he .col2 {
+  width: 229px;
+}
+.nf_tmn_lv3_pop_he .col3 {
+  width: 397px;
+}
+.nf_tmn_lv3_pop_he .col4 {
+  width: 206px;
+}
+.nf_tmn_lv3_pop_he .col2 ul {
+}
+.nf_tmn_lv3_pop_he .col2 ul li {
+  height: 30px;
+}
+.nf_tmn_lv3_pop_he .col2 ul li a {
+  background-image: url(http://www.sicer.com/images/nf_tmn_lv3_pop_he_btn_icons.png);
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  height: 30px;
+  display: block;
+  line-height: 28px;
+  overflow: hidden;
+  font-size: 16px;
+  color: #303030;
+  font-family: "Microsoft YaHei";
+  font-weight: 700;
+}
+.nf_tmn_lv3_pop_he .col2 ul li a:hover {
+}
+.nf_tmn_lv3_pop_he .col2 ul li a.btn_repare_apply {
+  background-position: 0 0;
+}
+.nf_tmn_lv3_pop_he .col2 ul li a.btn_product_reg {
+  background-position: 0 -30px;
+}
+.nf_tmn_lv3_pop_he .col2 ul li a.btn_online_report {
+  background-position: 0 -60px;
+}
+.nf_tmn_lv3_pop_he .col2 ul li a.btn_repare_status {
+  background-position: 0 -90px;
+}
+.nf_tmn_lv3_pop_he .col3 {
+  background-image: url(http://www.sicer.com/images/nf_tmn_lv3_pop_he_thumb.jpg);
+  background-position: 170px 0;
+  background-repeat: no-repeat;
+}
+.nf_tmn_lv3_pop_he .col3 p {
+  width: 136px;
+}
+.nf_tmn_lv3_pop_he .col4 strong {
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  color: #303030;
+  font-weight: 700;
+}
+/* nf_exn */
+.nf_exn {
+  height: 46px;
+  position: absolute;
+  width: 210px;
+  right: 250px;
+  top: 29px;
+}
+.nf_exn .ul_lv1 {
+  height: 40px;
+}
+.nf_exn .li_lv1 {
+  height: 46px;
+  float: left;
+  display: inline;
+}
+.nf_exn .a_lv1 {
+  height: 0;
+  padding-top: 46px;
+  overflow: hidden;
+  float: left;
+  display: inline;
+  background-image: url(http://www.sicer.com/images/nf_hd_ex_nav.png);
+  background-repeat: no-repeat;
+}
+.nf_exn .a_lv1:hover {
+}
+.nf_exn .ul_lv1 .a_btn_exp {
+  width: 66px;
+  background-position: 0px 0px;
+}
+.nf_exn .ul_lv1 .active .a_btn_exp,
+.nf_exn .ul_lv1 .a_btn_exp:hover {
+  background-position: 0px -50px;
+}
+.nf_exn .ul_lv1 .a_btn_buy {
+  width: 64px;
+  background-position: -66px 0px;
+}
+.nf_exn .ul_lv1 .active .a_btn_buy,
+.nf_exn .ul_lv1 .a_btn_buy:hover {
+  background-position: -66px -100px;
+}
+.nf_exn .ul_lv1 .a_btn_bbs {
+  width: 80px;
+  background-position: -130px -100px;
+}
+.nf_exn .ul_lv1 .active .a_btn_bbs,
+.nf_exn .ul_lv1 .a_btn_bbs:hover {
+}
+.nf_exn .wrap_lv2 {
+  width: 1000px;
+  margin-left: -646px; /* -146 */
+  min-width: 1000px;
+  min-height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 41px;
+  background-color: #fff;
+  display: none;
+  padding: 20px 0;
+  box-shadow: 5px 0 5px #999;
+  border-bottom: solid 1px #eee;
+  zoom: 1;
+}
+.nf_exn .wrap_lv2 .pop_lv2 {
+  width: 1000px;
+  min-height: 100px;
+  margin: 0 auto;
+  background-image: #fff;
+}
+.nf_exn .ul_lv1 .active .wrap_lv2 {
+  display: block;
+}
+/* nf_exn_lv2_pop_exp */
+.nf_exn_lv2_pop_exp {
+  background-image: url(http://www.sicer.com/images/nf_exn_lv2_pop_exp_bg.png);
+  background-repeat: repeat-y;
+  background-position: 0 0;
+  overflow: auto;
+  zoom: 1;
+}
+.nf_exn_lv2_pop_exp h2 {
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  font-weight: 700;
+  color: #303030;
+}
+.nf_exn_lv2_pop_exp .col1 {
+  width: 470px;
+  float: left;
+  display: inline;
+  overflow: auto;
+  zoom: 1;
+}
+.nf_exn_lv2_pop_exp .col1 .desc {
+  float: left;
+  width: 190px;
+  display: inline;
+  overflow: hidden;
+}
+.nf_exn_lv2_pop_exp .col1 .pic {
+  width: 280px;
+  height: 150px;
+  float: right;
+  display: inline;
+  overflow: hidden;
+}
+.nf_exn_lv2_pop_exp .col2 {
+  width: 496px;
+  float: right;
+  display: inline;
+  overflow: auto;
+  zoom: 1;
+}
+.nf_exn_lv2_pop_exp .col2 .desc_app {
+  float: left;
+  display: inline;
+  overflow: auto;
+  zoom: 1;
+}
+.nf_exn_lv2_pop_exp .col2 .desc_app .icon {
+  width: 45px;
+  height: 45px;
+  float: left;
+  display: inline;
+}
+.nf_exn_lv2_pop_exp .col2 .desc_app .desc {
+  width: 160px;
+  float: left;
+  display: inline;
+  margin-left: 10px;
+}
+.nf_exn_lv2_pop_exp .col2 .desc_app .pic {
+  width: 280px;
+  height: 150px;
+  float: right;
+  display: inline;
+  overflow: hidden;
+}
+/* nf_exn_lv2_pop_buy */
+.nf_exn_lv2_pop_buy {
+  background-image: url(http://www.sicer.com/images/nf_exn_lv2_pop_buy_bg.png);
+  background-repeat: repeat-y;
+  background-position: 0 0;
+  overflow: auto;
+  zoom: 1;
+}
+.nf_exn_lv2_pop_buy h2 {
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  font-weight: 700;
+  color: #303030;
+  overflow: auto;
+  zoom: 1;
+}
+.nf_exn_lv2_pop_buy .col1 {
+  width: 590px;
+  float: left;
+  display: inline;
+  overflow: auto;
+  zoom: 1;
+}
+.nf_exn_lv2_pop_buy .col1 .desc {
+  float: left;
+  display: inline;
+  width: 320px;
+  overflow: hidden;
+}
+.nf_exn_lv2_pop_buy .col1 .desc .city_selector {
+  overflow: auto;
+  zoom: 1;
+  margin-bottom: 10px;
+}
+.nf_exn_lv2_pop_buy .col1 .desc .city_selector .province {
+  float: left;
+  display: inline;
+}
+.nf_exn_lv2_pop_buy .col1 .desc .city_selector .city {
+  float: right;
+  display: inline;
+  width: 160px;
+}
+.nf_exn_lv2_pop_buy .col1 .desc .city_selector .province select {
+  width: 150px;
+}
+.nf_exn_lv2_pop_buy .col1 .desc .city_selector .city select {
+  width: 150px;
+}
+.nf_exn_lv2_pop_buy .col1 .desc .city_selector {
+}
+.nf_exn_lv2_pop_buy .col1 .desc .city_selector {
+}
+.nf_exn_lv2_pop_buy .col1 .desc .city_selector {
+}
+.nf_exn_lv2_pop_buy .col1 .pic {
+  float: right;
+  display: inline;
+  width: 320px;
+  overflow: hidden;
+  width: 240px;
+  height: 160px;
+}
+.nf_exn_lv2_pop_buy .col2 {
+  width: 320px;
+  float: right;
+  display: inline;
+}
+.nf_exn_lv2_pop_buy .col2 .pic {
+  width: 320px;
+  height: 160px;
+}
+/* nf_footer */
+.nf_footer {
+  overflow: hidden;
+  height: 30px;
+  width: 100%;
+  background-image: url(http://www.sicer.com/images/nf_footer_bg.png);
+  background-repeat: repeat-x;
+  background-position: 0 35px;
+  min-width: 1000px;
+  overflow: hidden;
+  padding-top: 35px;
+}
+.nf_footer_wrap {
+  height: 30px;
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.nf_footer ul.links {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.nf_footer ul.links li {
+  height: 30px;
+  float: left;
+  display: inline;
+  background-image: url(http://www.sicer.com/images/nf_footer_bg_divider.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  line-height: 30px;
+  color: #fff;
+  padding: 0 13px;
+  margin-left: -1px;
+}
+.nf_footer ul.links li a {
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  display: inline-block;
+}
+.nf_footer ul.links li a:hover {
+  text-decoration: underline;
+}
+.nf_footer .fl {
+  float: left;
+  display: inline;
+  height: 30px;
+}
+.nf_footer .fl .region {
+  float: left;
+  display: inline;
+  height: 18px;
+  padding: 5px 0 7px;
+}
+.nf_footer .fl .region .flag {
+  height: 11px;
+  margin: 4px 5px 3px 0;
+  line-height: 11px;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+}
+.nf_footer .fl .region .flag img {
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+  height: 11px;
+  width: 16px;
+  display: block;
+  overflow: hidden;
+}
+.nf_footer .fl .region a {
+  vertical-align: middle;
+}
+.nf_footer .fl ul.links {
+  float: left;
+  display: inline;
+}
+.nf_footer .fr {
+  float: right;
+  display: inline;
+  height: 30px;
+}
+.nf_footer .fr ul.links {
+}
+/* nf_country_selector */
+.nf_country_selector {
+  padding: 15px 20px 10px;
+  width: 500px;
+}
+.nf_country_selector h3 {
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  border-bottom: solid 1px #eee;
+  padding-bottom: 0;
+  margin-bottom: 10px;
+}
+.nf_country_selector ul {
+  width: 500px;
+  overflow: auto;
+  zoom: 1;
+  margin-bottom: 10px;
+}
+.nf_country_selector ul li {
+  width: 125px;
+  float: left;
+}
+.nf_country_selector ul li.x2 {
+  width: 250px;
+  float: left;
+}
+.nf_country_selector ul li a {
+  color: #606060;
+}
+.nf_country_selector ul li a:hover {
+  color: #FE697D;
+}
+/* main_content */
+.main_content {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  zoom: 1;
+  min-height:200px;
+  _height:200px;
+}
+/* nf_header_tt_user_info */
+.nf_header_tt_user_info{
+  display:inline-block;
+  position:relative;
+}
+.nf_header_tt_user_info.active{
+  z-index:10;
+}
+.nf_header_tt_user_info .tt_btn{
+  display:inline-block;
+  border:solid 1px #fff;
+  border-bottom:0 none;
+  background-image:url(http://www.sicer.com/images/nf_dropdown_right_delta.png);
+  background-repeat:no-repeat;
+  background-position:right 0;
+  padding:0 20px 0 10px;
+  position:relative;
+  z-index:10;
+  background-color:#fff;
+  padding-bottom:3px;
+}
+.nf_header_tt_user_info .tt_btn:hover,
+.nf_header_tt_user_info.active .tt_btn{
+  border:solid 1px #dddddd;
+  border-bottom:0 none;
+  background-position:right -50px;
+}
+.nf_header_tt_user_info .tt{
+  position:absolute;
+  width:260px;
+  padding:10px 15px;
+  border:solid 1px #dddddd;
+  border-bottom:solid 3px #bbb;
+  background-color:#fff;
+  left:-236px;
+  top:21px;
+  display:none;
+}
+.nf_header_tt_user_info .links{
+  border-bottom:solid 1px  #ddd;
+  text-align:right;
+  display:block;
+  padding-bottom:5px;
+}
+.nf_header_tt_user_info .links a{
+  color:#d8134b;
+}
+.nf_header_tt_user_info .links a:hover{
+}
+.nf_header_tt_user_info .info{
+  padding-top:10px;
+  overflow:auto;
+  zoom:1;
+  display:block;
+}
+.nf_header_tt_user_info .info .avatar{
+  float:left;
+  display:inline;
+  width:70px;
+  height:70px;
+  
+}
+.nf_header_tt_user_info .info .txt{
+  width:170px;
+  float:right;
+  display:inline;
+  line-height:20px;
+  padding-top:3px;
+}
+.nf_header_tt_user_info .info .txt strong{
+}
+/* nf_header_tt_my_haier */
+.nf_header_tt_my_haier{
+  display:inline-block;
+  position:relative;
+}
+.nf_header_tt_my_haier.active{
+  z-index:10;
+}
+.nf_header_tt_my_haier .tt_btn{
+  display:inline-block;
+  border:solid 1px #fff;
+  border-bottom:0 none;
+  background-image:url(http://www.sicer.com/images/nf_dropdown_right_delta.png);
+  background-repeat:no-repeat;
+  background-position:right 0;
+  padding:0 20px 0 10px;
+  position:relative;
+  z-index:10;
+  background-color:#fff;
+  padding-bottom:3px;
+}
+.nf_header_tt_my_haier .tt_btn:hover,
+.nf_header_tt_my_haier.active .tt_btn{
+  border:solid 1px #dddddd;
+  border-bottom:0 none;
+  background-position:right -50px;
+}
+.nf_header_tt_my_haier .tt{
+  position:absolute;
+  width:100px;
+  padding:10px 15px;
+  border:solid 1px #dddddd;
+  border-bottom:solid 3px #bbb;
+  background-color:#fff;
+  left:-52px;
+  top:21px;
+  display:none;
+}
+.nf_header_tt_my_haier ul{
+  overflow:hidden;
+  padding:0;
+  margin:0;
+}
+.nf_header_tt_my_haier ul li{
+  border-top:solid 1px #ddd;
+  margin-top:-1px;
+  line-height:24px;
+}
+.nf_header_tt_my_haier ul li a{
+  line-height:24px;
+  display:block;
+  padding:0 10px;
+  zoom:1;
+}
+.nf_header_tt_my_haier ul li a:hover{
+}
+
+
+/* abrn_pink_h36 */
+.abtn_pink_h36 {
+  display:inline-block;
+  height:36px;
+  background-image:url(http://www.sicer.com/images/abtn_pink_h36.png);
+  background-repeat:no-repeat;
+  padding-left:12px;
+  background-position:left top;
+  color:#fff;
+}
+.abtn_pink_h36 span {
+  display:inline-block;
+  height:36px;
+  line-height:32px;
+  background-image:url(http://www.sicer.com/images/abtn_pink_h36.png);
+  background-repeat:no-repeat;
+  padding-right:16px;
+  background-position:right -50px;
+  color:#fff;
+  font-size:14px;
+  padding-left:4px;
+  font-weight:700;
+  cursor:pointer;
+}
+.abtn_pink_h36 span em {
+  display:inline-block;
+  height:36px;
+  line-height:32px;
+  color:#fff;
+  font-size:14px;
+  font-weight:700;
+  cursor:pointer;
+}
+.abtn_pink_h36:hover {
+  background-position:left -100px;
+}
+.abtn_pink_h36:hover span {
+  background-position:right -150px;
+}
+.abtn_pink_h36 i {
+  background-repeat:no-repeat;
+  background-position:0 0;
+  font-style:normal;
+  height:32px;
+  display:inline-block;
+}
+.abtn_pink_h36 i.arrow_right {
+  padding-left:14px;
+  background-image:url(http://www.sicer.com/images/nf_icon_h32_arrow_right.png);
+}
+.abtn_pink_h36 i.plus {
+  padding-left:14px;
+  background-image:url(http://www.sicer.com/images/nf_icon_h32_plus.png);
+}es/nf_icon_h32_plus.png);
+}
